@@ -1,0 +1,23 @@
+[project]
+title = "Kaggle Top 100 Insights"
+version = "1.0.0"
+port = 8501
+slug = "kaggle-top-100"
+entrypoint = "app.py"
+
+[branding]
+name = "Kaggle Insights"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#1f77b4"
+secondaryColor = "#ff7f0e"
+backgroundColor = "#ffffff"
+textColor = "#000000"
+
+[data.kaggle_top_100]
+type = "csv"
+path = "data/kaggle_top_100_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
