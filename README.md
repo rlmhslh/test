@@ -21,5 +21,14 @@ The dataset used is `kaggle_top_100_dataset.csv`, which contains:
 - Upvotes
 - Rank (Gold, Silver, Bronze)
 
-## 📂 Project Structure
+
+## 🚀 How to Use
+
+1. Upload the folder to [Preswald.com](https://preswald.com/)
+2. Click **Run** to test locally
+3. Click **Publish** to deploy your app
+
+---
+
+✅ Created as part of a Preswald + Structured Labs test
 
